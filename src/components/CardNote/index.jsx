@@ -124,7 +124,7 @@ const CardNote = ({ idNote, textDefault, removeNote, done, Notes }) => {
           src={IconDone}
           className="w-5 opacity-50 hover:opacity-100 cursor-pointer"
           alt="Icone para deletar Nota"
-          title="Clique para DELETAR essa nota"
+          title="Clique para marcar esssa nota como CONCLUÍDA."
           onClick={doneNote}
         />
 
